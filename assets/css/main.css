@@ -3101,7 +3101,7 @@
 		.wrapper.style3 {
 			background-color: #000;
 			color: #bfbfbf;
-			background-image: url(../../images/bg.jpg);
+			background-image: url(../../images/pict03.jpg);
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -4312,3 +4312,17 @@
 			}
 
 		}
+.autoportrait {
+			min-height: 25vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 3em;
+		}
+.autoportrait figure {
+	max-width: 400px;
+}
+.autoportrait figure img {
+	width: 100%;
+
+}
